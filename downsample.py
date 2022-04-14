@@ -4,7 +4,7 @@ import numpy as np
 from util.point_cloud_util import load_labels, write_labels
 from dataset.semantic_dataset import all_file_prefixes
 
-
+##
 def down_sample(
     dense_pcd_path, dense_label_path, sparse_pcd_path, sparse_label_path, voxel_size
 ):
